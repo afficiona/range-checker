@@ -1,0 +1,15 @@
+$header-bg:             #1b2634;
+
+.app {
+  &__header {
+    background: $header-bg;
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    select {
+      margin: 0 8px;
+    }
+  }
+}
